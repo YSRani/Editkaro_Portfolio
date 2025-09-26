@@ -109,7 +109,7 @@ This portfolio is designed to showcase **creative work and video editing project
 
 ## 🌐 Live Demo
 
-Check out the live portfolio here:--
+Check out the live portfolio here: https://ysrani.github.io/Editkaro_Portfolio/
 
 ## 🚀 How to Run Locally
 
