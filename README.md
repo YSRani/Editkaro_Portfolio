@@ -83,11 +83,11 @@ git clone https://github.com/YSRani/Editkaro_Portfolio.git
 
 2.Navigate into the project folder:
 
-cd Editkaro_Portfolio
+  cd Editkaro_Portfolio
 
 3.Open index.html in a web browser.
 
-##📝 About
+## About
 
 This portfolio is designed to showcase creative work and video editing projects while also demonstrating web development skills. It is an ideal example of combining media content with interactive web design.
 
