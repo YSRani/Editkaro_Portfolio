@@ -83,9 +83,13 @@ git clone https://github.com/YSRani/Editkaro_Portfolio.git
 
 2.Navigate into the project folder:
 
+```bash
   cd Editkaro_Portfolio
 
 3.Open index.html in a web browser.
+
+---
+
 
 ## About
 
