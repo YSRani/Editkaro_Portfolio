@@ -87,11 +87,11 @@ cd Editkaro_Portfolio
 
 3.Open index.html in a web browser.
 
-📝 About
+##📝 About
 
 This portfolio is designed to showcase creative work and video editing projects while also demonstrating web development skills. It is an ideal example of combining media content with interactive web design.
 
-🏆 Achievements
+##🏆 Achievements
 
 Successfully completed multiple client projects with high-quality results.
 
@@ -99,13 +99,13 @@ Developed a fully responsive portfolio site from scratch.
 
 Demonstrated skills in both video editing and front-end web development.
 
-📬 Contact
+##📬 Contact
 
 Email: sandhyayalla225@gmail.com
 
 LinkedIn: https://www.linkedin.com/in/sandhya-rani-yalla-38971528a/
 
-❤️ Support
+##❤️ Support
 
 If you like this project, give it a ⭐ on GitHub!
 
