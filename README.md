@@ -69,10 +69,24 @@ Editkaro_Portfolio/
 <img width="1920" height="1020" alt="Screenshot 2025-09-25 150338" src="https://github.com/user-attachments/assets/ae56abb8-685a-42c0-9d1b-bc54871a842c" />
 
 
+## 📝 About
+
+This portfolio is designed to showcase **creative work and video editing projects** while also demonstrating web development skills. It is an ideal example of combining **media content with interactive web design**.
+
+## 🏆 Achievements
+
+- ![Check](https://img.shields.io/badge/✓-Client%20Projects-success) Successfully completed multiple client projects with high-quality results  
+- ![Responsive](https://img.shields.io/badge/✓-Responsive%20Design-success) Developed a fully responsive portfolio site from scratch  
+- ![Skill](https://img.shields.io/badge/✓-Skills%20Showcase-success) Demonstrated skills in video editing & front-end web development  
+
+## 📬 Contact
+
+- ![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white) [your-email@example.com](mailto:your-email@example.com)  
+- ![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white) [Your LinkedIn Profile](https://www.linkedin.com) 
+
 ## 🌐 Live Demo
 
 Check out the live portfolio here:--
----
 
 ## 🚀 How to Run Locally
 
@@ -83,37 +97,9 @@ git clone https://github.com/YSRani/Editkaro_Portfolio.git
 
 2.Navigate into the project folder:
 
-```bash
   cd Editkaro_Portfolio
 
 3.Open index.html in a web browser.
 
 ---
 
-
-## About
-
-This portfolio is designed to showcase creative work and video editing projects while also demonstrating web development skills. It is an ideal example of combining media content with interactive web design.
-
-##🏆 Achievements
-
-Successfully completed multiple client projects with high-quality results.
-
-Developed a fully responsive portfolio site from scratch.
-
-Demonstrated skills in both video editing and front-end web development.
-
-##📬 Contact
-
-Email: sandhyayalla225@gmail.com
-
-LinkedIn: https://www.linkedin.com/in/sandhya-rani-yalla-38971528a/
-
-##❤️ Support
-
-If you like this project, give it a ⭐ on GitHub!
-
-
-This is a **single, complete README in one code block**, including all sections: Features, Technologies, Skills, Project Structure, Screenshots, Live Demo, About, Achievements, Contact, and Support.  
-
-If you want, I can now **add clickable badges for all tools and technologies**, making it look like a top-tier portfolio README. Do you want me to do that?
