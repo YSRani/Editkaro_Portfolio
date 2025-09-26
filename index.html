@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Editkaro.in — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="dark">
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="header-left">
+      <!-- Replace this with your real logo file -->
+      <img src="images/editkaro.png" alt="Editkaro.in logo" class="logo" width="300">
+      <nav class="main-nav">
+        <a href="#home" class="active">Home</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+
+    <div class="header-right">
+      <input id="search" type="search" placeholder="Search videos..." aria-label="Search videos">
+      <button id="toggleTheme" class="btn-pill">Toggle Light/Dark Mode</button>
+    </div>
+  </header>
+
+  <main>
+  <!-- HERO SECTION -->
+<section id="home" class="hero">
+  <h1>Welcome to Editkaro</h1>
+  <p class="lead">Transforming ideas into captivating videos and boosting your brand’s social media presence.</p>
+
+  <ul class="bullets">
+    <li>Professional video editing for businesses, influencers, and creators.</li>
+    <li>Customized social media strategies to grow your audience.</li>
+    <li>Cinematic and creative content tailored to your brand’s identity.</li>
+    <li>Fast turnaround time with high-quality results every time.</li>
+  </ul>
+
+  <div class="subscribe">
+    <input id="subscribeEmail" type="email" placeholder="Enter your email" required>
+    <button id="subscribeBtn" class="btn-action">Subscribe</button>
+  </div>
+
+  <p id="subscribeMsg" style="display:none; color:green; margin-top:10px; font-weight:bold;">
+    Thank you for subscribing!
+  </p>
+
+  <p class="extra-info">Check out our portfolio below to see the magic we create!</p>
+</section>
+
+   <!-- PORTFOLIO -->
+    <section id="portfolio" class="portfolio-section">
+      <h2>Our Portfolio</h2>
+      <p class="sub">Explore our best video editing and marketing projects.</p>
+
+      <div class="filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="short">Short Videos</button>
+        <button class="filter-btn" data-filter="long">Long Videos</button>
+        <button class="filter-btn" data-filter="gaming">Gaming Videos</button>
+        <button class="filter-btn" data-filter="football">Football Edits</button>
+        <button class="filter-btn" data-filter="anime">Anime Videos</button>
+        <button class="filter-btn" data-filter="ads">eCommerce Ads</button>
+      </div>
+
+      <div class="grid" id="grid">
+        <!-- Short -->
+        <article class="card" data-cat="short" data-video="https://www.youtube.com/embed/mxVrmXFeR40">
+          <div class="thumb" style="background-image:url('https://img.youtube.com/vi/mxVrmXFeR40/hqdefault.jpg')">
+            <div class="play"></div>
+          </div>
+          <h3 class="title">Short video </Video>— Editkaro</h3>
+        </article>
+
+        <!-- Long -->
+        <article class="card" data-cat="long" data-video="https://www.youtube.com/embed/U9ASOd2iazo?si=A9OeHcPeelDlggBj">
+          <div class="thumb" style="background-image:url('https://img.youtube.com/vi/U9ASOd2iazo/hqdefault.jpg')">
+            <div class="play"></div>
+          </div>
+          <h3 class="title">Long Cinematic Edit</h3>
+        </article>
+
+        <!-- Gaming -->
+        <article class="card" data-cat="gaming" data-video="https://www.youtube.com/embed/Y3C-NE47kTk">
+          <div class="thumb" style="background-image:url('https://img.youtube.com/vi/Y3C-NE47kTk/hqdefault.jpg')">
+            <div class="play"></div>
+          </div>
+          <h3 class="title">Gaming Highlight Reel</h3>
+        </article>
+
+        <!-- Football -->
+        <article class="card" data-cat="football" data-video="https://www.youtube.com/embed/QXhV148EryQ">
+          <div class="thumb" style="background-image:url('https://img.youtube.com/vi/QXhV148EryQ/hqdefault.jpg')">
+            <div class="play"></div>
+          </div>
+          <h3 class="title">Football Edit</h3>
+        </article>
+
+        <!-- Anime -->
+        <article class="card" data-cat="anime" data-video="https://www.youtube.com/embed/zB0uUQBCuA4">
+          <div class="thumb" style="background-image:url('https://img.youtube.com/vi/zB0uUQBCuA4/hqdefault.jpg')">
+            <div class="play"></div>
+          </div>
+          <h3 class="title">Anime Style Edit</h3>
+        </article>
+
+        <!-- Ads -->
+        <article class="card" data-cat="ads" data-video="https://www.youtube.com/embed/Okjz1CmhLSw?si=E_OicpFgK-_4XSX_">
+          <div class="thumb" style="background-image:url('https://img.youtube.com/vi/Okjz1CmhLSw/hqdefault.jpg')">
+            <div class="play"></div>
+          </div>
+          <h3 class="title">eCommerce Ad</h3>
+        </article>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+<section id="about" class="about">
+  <h2>About Us</h2>
+  <p>At Editkaro, we specialize in crafting high-quality video content and result-driven social media campaigns. Our team is passionate about storytelling and bringing brands to life through dynamic visuals.</p>
+  <p>We work with influencers, businesses, and creative individuals to create content that resonates with their audience. From concept development to post-production, we ensure every project exceeds expectations.</p>
+  <p>Our services include:</p>
+  <ul>
+    <li>Professional video editing for all types of content</li>
+    <li>Customized social media strategies for growth</li>
+    <li>Creative animations and cinematic effects</li>
+    <li>Fast turnaround with top-quality results</li>
+  </ul>
+  <p>We believe in collaboration, creativity, and commitment. Let’s make your brand’s story unforgettable!</p>
+</section>
+
+   <!-- CONTACT -->
+<section id="contact" class="contact">
+  <h2>Contact Us</h2>
+  <p>Have a question or want to work with us? Fill out the form below!</p>
+
+  <form id="contactForm">
+    <div class="form-group">
+      <input type="text" name="entry.935847592" placeholder="Your Name" required>
+    </div>
+    <div class="form-group">
+      <input type="email" name="entry.1588264125" placeholder="Your Email" required>
+    </div>
+    <div class="form-group">
+      <textarea name="entry.483783727" placeholder="Your Message" rows="5" required></textarea>
+    </div>
+    <button type="submit" class="btn-action">Send Message</button>
+  </form>
+
+  <p id="thankYouMsg" style="display:none; color:green; margin-top:15px; font-weight:bold;">
+    Thank you! Your message has been sent.
+  </p>
+</section>
+
+
+  <!-- LIGHTBOX -->
+  <div id="lightbox" class="lightbox hidden" aria-hidden="true">
+    <button id="lbClose" class="lb-close" aria-label="Close">✕</button>
+    <div class="lb-content">
+      <iframe id="lbFrame" src="" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
